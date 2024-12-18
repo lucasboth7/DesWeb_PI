@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Integrador I</title>
+</head>
+
+<body>
+
+    <div class="bordas">
+        <div class="padrao"> <!--A parte que vai se repetir em todas as outras páginas, como o cabeçalho.-->
+
+            <center><a href="index.html"><img src="O_uso_de_Cigarro_Eletrônico_na_Adolescência-removebg-preview.png"
+                        alt="" class="imagempadrao"></a></center>
+            <br>
+
+            <header> <!--Cabeçalho-->
+                <table border="0">
+                    <tr>
+                        <td class="CelulaImagPadrao"> <img src="LogoIf.png" width="200px"> </td>
+
+                        <td><a href="index.html">Início</a></td>
+
+                        <td><a href="IdeiasGrp.html"> Ideias do grupo</a></td>
+
+                        <td><a href="riscos.html">Riscos</a></td>
+
+                        <td><a href="relatos.html">Relatos</a></td>
+
+                        <td><a href="DadosColetados.html">Dados coletados</a></td>
+
+                        <td><a href="resultados.html">Resultados</a></td>
+
+                        <td><a href="Contato.html">Contato</a></td>
+
+                    </tr>
+                </table>
+
+            </header>
+        </div>
+
+    </div>
+
+    <div class="bordas">
+
+        <center>
+            <h1>Contato</h1>
+        </center>
+
+        <p>Para entrar em contato com algum representante do grupo, você pode mandar e-mail: </p>
+
+        <b>
+            <p>Alexandro Adario(Orientador):
+        </b><a href="mailto:alexandro.adario@erechim.ifrs.edu.br"> alexandro.adario@erechim.ifrs.edu.br </a></p>
+
+        <b>
+            <p>Artur Guilherme Rech:
+        </b> <a href="mailto:2024302421@aluno.erechim.ifrs.edu.br"> 2024302421@aluno.erechim.ifrs.edu.br </a></p>
+
+        <b>
+            <p>Gabriel De Domenico De Camargo:
+        </b> <a href="mailto:2024302403@aluno.erechim.ifrs.edu.br"> 2024302403@aluno.erechim.ifrs.edu.br </a></p>
+
+        <b>
+            <p>Gabriel Mandelli Garstka:
+        </b> <a href="mailto:2024303320@aluno.erechim.ifrs.edu.br"> 2024303320@aluno.erechim.ifrs.edu.br </a></p>
+
+        <b>
+            <p>Lucas André Both:
+        </b> <a href="mailto:2024302824@aluno.erechim.ifrs.edu.br"> 2024302824@aluno.erechim.ifrs.edu.br </a></p>
+
+
+
+
+
+        <div class="containerFormContato">
+
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+            <label for="recipient">Selecione o destinatário</label>
+            <select id="recipient" name="recipient" required>
+                <option value="alexandro.adario@erechim.ifrs.edu.br">Alexandro Adario (Orientador) </option>
+                <option value="2024302421@aluno.erechim.ifrs.edu.br">Artur Guilherme Rech</option>
+                <option value="2024302403@aluno.erechim.ifrs.edu.br">Gabriel De Domenico De Camargo</option>
+                <option value="2024303320@aluno.erechim.ifrs.edu.br">Gabriel Mandelli Garstka</option>
+                <option value="2024302824@aluno.erechim.ifrs.edu.br">Lucas André Both</option>
+            </select>
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+
+
+        <style>
+            #message {
+                resize: none;
+                /* Impede o redimensionamento */
+            }
+
+            .containerFormContato {
+                max-width: 600px;
+                margin: 0 auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-top: 50px;
+            }
+
+            label {
+                font-size: 14px;
+                color: #333;
+                margin-bottom: 5px;
+                display: block;
+            }
+
+            input,
+            textarea,
+            select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+
+            textarea {
+                resize: vertical;
+            }
+
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+            .success-message {
+                color: green;
+                text-align: center;
+            }
+        </style>
+
+        <footer>
+
+            <p>&copy; 2024 Todos os direitos reservados.</p>
+            <p>Site desenvolvido pelo estudande Lucas André Both</p>
+
+            <p>Para entrar em contato: </p>
+            <ul class="redes_sociais">
+                <a href="mailto:2024302824@aluno.erechim.ifrs.edu.br" target="_blank">E-mail</a>
+        </footer>
+
+
+    </div><!--É o fim das borda-->
+</body>
+
+</html>
