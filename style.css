@@ -1,0 +1,140 @@
+body {
+    background-color: #dfdddd;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+h3{
+    font-size: 1.9vw;
+    margin: 10;
+    padding: 2;
+}
+
+td {
+    font-size: 18px;
+}
+
+.imagempadrao {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    text-align: left;
+}
+
+header {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.CelulaImagPadrao {
+    text-align: left;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bordas {
+    max-width: 1250px;
+    margin: 0 auto;
+    color: black;
+}
+
+.paragrafo {
+    text-indent: 30px;
+}
+
+.imgusuario {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgusuario img {
+    margin-right: 20px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Início CSS Rodapé */
+footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #c0c0c0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+}
+/* Fim CSS Rodapé */
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    .imagempadrao {
+        width: 80%;
+    }
+
+    .imgusuario img {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .paragrafo {
+        text-indent: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 8vw; 
+    }
+
+    .imagempadrao {
+        width: 90%;
+    }
+
+    .imgusuario img {
+        width: 90%;
+    }
+
+    .bordas {
+        width: 100%;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
